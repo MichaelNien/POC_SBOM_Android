@@ -6,6 +6,14 @@
 
 
 
+## 產生流程
+
+gradle cyclonedxBom 產生 app\build\reports\bom.json
+
+執行 script\google_osv-scanner.bat 產生 sbom\poc\sbom_report.txt
+
+
+
 ## 排除
 
 Android Studio Narwhal Feature Drop | 2025.1.2
