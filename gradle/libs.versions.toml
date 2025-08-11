@@ -1,0 +1,34 @@
+[versions]
+androidGradlePluginVersion = "8.4.0"
+
+kotlinVersion = "2.0.21"
+
+cyclonedxBomPluginVersion = "2.3.1"
+
+androidxCoreLibVersion = "1.13.1"
+androidxAppcompatLibVersion = "1.6.1"
+
+googleMaterialLibVersion = "1.4.0"
+
+junit4LibVersion = "4.13.2"
+
+androidxTestExtJUnitLibVersion = "1.3.0"
+androidxTestEspressoCoreLibVersion = "3.7.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCoreLibVersion" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppcompatLibVersion" }
+
+google-material = { group = "com.google.android.material", name = "material", version.ref = "googleMaterialLibVersion" }
+
+junit4 = { group = "junit", name = "junit", version.ref = "junit4LibVersion" }
+
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExtJUnitLibVersion" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxTestEspressoCoreLibVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePluginVersion" }
+
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
+
+cyclonedx-bom = { id = "org.cyclonedx.bom", version.ref = "cyclonedxBomPluginVersion" }
