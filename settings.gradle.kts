@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SBOM Android"
+rootProject.name = "POC SBOM Android"
 include(":app")
