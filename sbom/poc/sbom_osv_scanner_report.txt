@@ -1,5 +1,5 @@
-Total 6 packages affected by 8 known vulnerabilities (0 Critical, 4 High, 4 Medium, 0 Low, 0 Unknown) from 1 ecosystem.
-8 vulnerabilities can be fixed.
+Total 6 packages affected by 9 known vulnerabilities (0 Critical, 5 High, 4 Medium, 0 Low, 0 Unknown) from 1 ecosystem.
+9 vulnerabilities can be fixed.
 
 
 +-------------------------------------+------+-----------+-----------------------------------+--------------+---------------+----------------------------------------------------------------------------+
@@ -8,6 +8,7 @@ Total 6 packages affected by 8 known vulnerabilities (0 Critical, 4 High, 4 Medi
 | https://osv.dev/GHSA-735f-pc8j-v9w8 | 8.7  | Maven     | com.google.protobuf:protobuf-java | 3.22.3       | 3.25.5        | D:/Project/00_GitHubProject/me/POC_SBOM_Android/app/build/reports/bom.json |
 | https://osv.dev/GHSA-78wr-2p64-hpwj | 8.7  | Maven     | commons-io:commons-io             | 2.13.0       | 2.14.0        | D:/Project/00_GitHubProject/me/POC_SBOM_Android/app/build/reports/bom.json |
 | https://osv.dev/GHSA-5jpm-x58v-624v | 5.3  | Maven     | io.netty:netty-codec-http         | 4.1.93.Final | 4.1.108.Final | D:/Project/00_GitHubProject/me/POC_SBOM_Android/app/build/reports/bom.json |
+| https://osv.dev/GHSA-prj3-ccx8-p6x4 | 8.2  | Maven     | io.netty:netty-codec-http2        | 4.1.93.Final | 4.1.124.Final | D:/Project/00_GitHubProject/me/POC_SBOM_Android/app/build/reports/bom.json |
 | https://osv.dev/GHSA-xpw8-rcwv-8f8p | 7.5  | Maven     | io.netty:netty-codec-http2        | 4.1.93.Final | 4.1.100.Final | D:/Project/00_GitHubProject/me/POC_SBOM_Android/app/build/reports/bom.json |
 | https://osv.dev/GHSA-389x-839f-4rhx | 5.5  | Maven     | io.netty:netty-common             | 4.1.93.Final | 4.1.118.Final | D:/Project/00_GitHubProject/me/POC_SBOM_Android/app/build/reports/bom.json |
 | https://osv.dev/GHSA-xq3w-v528-46rv | 5.5  | Maven     | io.netty:netty-common             | 4.1.93.Final | 4.1.115.Final | D:/Project/00_GitHubProject/me/POC_SBOM_Android/app/build/reports/bom.json |
